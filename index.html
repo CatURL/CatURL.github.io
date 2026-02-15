@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CatURL 🐱</title>
+
   <style>
     body {
       background-color: #cfe9ff;
@@ -12,6 +13,7 @@
       align-items: center;
       min-height: 100vh;
       padding-top: 80px;
+      margin: 0;
     }
 
     .card {
@@ -20,10 +22,12 @@
       padding: 30px;
       border-radius: 20px;
       text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
 
     h1 {
       color: #1f3a5f;
+      margin-top: 0;
     }
 
     p {
@@ -34,11 +38,12 @@
     .footer {
       margin-top: 20px;
       font-size: 12px;
+      color: #555;
     }
 
     .paw-image {
       margin-top: 30px;
-      width: 300px; /* BIGGER */
+      width: 300px;
       cursor: pointer;
       transition: transform 0.2s;
     }
@@ -66,16 +71,16 @@
     </p>
   </div>
 
-  <!-- Big 3D paw image button -->
   <a href="catcorp.html">
     <img
       src="https://cdn3d.iconscout.com/3d/premium/thumb/dog-paw-print-3d-icon-png-download-10842998.png"
       alt="Pink Paw Print"
       class="paw-image"
     >
-
-    
   </a>
-<script src="https://foxurl.github.io/login/auth/CatURL.js" data-site="1"></script>
+
+  <!-- ⭐ Load CatURL.js LAST so it runs after the page is ready -->
+  <script src="https://foxurl.github.io/login/auth/CatURL.js" data-site="1"></script>
+
 </body>
 </html>
